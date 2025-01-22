@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <string.h>
 
 int main() {
     
@@ -7,6 +6,6 @@ int main() {
     scanf("%d", &a);
     scanf("%d", &b);
     printf("Hexadecimal: %X\n",a);
-    printf("Octal: %o",b);
+    printf("Octal: %o\n",b);
     return 0;
 }
