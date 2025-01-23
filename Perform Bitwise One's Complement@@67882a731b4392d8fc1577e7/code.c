@@ -2,9 +2,8 @@
 #include <stdbool.h>
 
 int main(){
-    int a,b,result;
+    int a,result;
     scanf("%d", &a);
-    scanf("%d", &b);
-    result=a~b;
+    result=a~a;
     printf("%d", result);
 }
