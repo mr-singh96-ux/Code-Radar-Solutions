@@ -1,8 +1,9 @@
 #include <stdio.h>
 
 int main(){
-    int a,b;
+    int a,b,result;
     scanf("%d", &a);
     scanf("%d", &b);
-    printf("%d", a^b);
+    result = a|b;
+    printf("%d", result);
 }
