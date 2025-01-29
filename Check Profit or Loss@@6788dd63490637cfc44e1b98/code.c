@@ -5,10 +5,16 @@ int main() {
     int b;
     scanf("%d", &a);
     scanf("%d", &b);
-    if (a>b && b>a){
+    if (a>b){
         printf("Profit");
     }
-    else if(a<b && b<a){
+    else if(b>a){
+        printf("Profit");
+    }
+    else if(a<b){
+        printf("Loss");
+    }
+    else if(b<a){
         printf("Loss");
     }
     else{
