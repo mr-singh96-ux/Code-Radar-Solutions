@@ -14,7 +14,7 @@ int main() {
     else if(a==9){printf("30");}
     else if(a==10){printf("31");}
     else if(a==11){printf("30");}
-    else if{printf("31");}
-    else {printf("Invalid month");}
+    else if(a==12){printf("31");}
+    else{printf("Invalid month");}
     return 0;
 }
