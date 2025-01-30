@@ -27,7 +27,7 @@ int main() {
         break;
 
         default:
-        printf("Wrong Input");
+        printf("Invalid");
     }
     return 0;
 }
