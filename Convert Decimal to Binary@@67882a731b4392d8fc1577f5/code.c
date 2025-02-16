@@ -1,14 +1,19 @@
 #include <stdio.h>
 
 int main() {
-    int num, i;
-
-    printf("Enter a decimal number: ");
+    int num, i, leading_zero = 1;
     scanf("%d", &num);
-
-    printf("Binary representation: ");
     for (i = 31; i >= 0; i--) {
-        printf("%d", (num >> i) & 1);
+        int bit = (num >> i) & 1;
+        if (bit == 1) {
+            leading_zero = 0;
+        }
+        if (!leading_zero) {
+            printf("%d", bit);
+        }
+    }
+    if (leading_zero) {
+        printf("0");
     }
     printf("\n");
 
