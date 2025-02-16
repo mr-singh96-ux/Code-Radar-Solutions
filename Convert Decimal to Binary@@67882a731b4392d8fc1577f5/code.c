@@ -1,20 +1,16 @@
-// Your code here...#include <stdio.h>
+#include <stdio.h>
 
 int main() {
-    int num, binary[32], i = 0;
+    int num, i;
+
+    printf("Enter a decimal number: ");
     scanf("%d", &num);
 
-    // Extracting bits and storing them in an array
-    while (num > 0) {
-        binary[i] = num % 2;
-        num = num / 2;
-        i++;
-    }
-
-    // Printing the binary number in reverse order
     printf("Binary representation: ");
-    for (int j = i - 1; j >= 0; j--) {
-        printf("%d", binary[j]);
+    // Loop through each bit from the most significant bit to the least significant bit
+    for (i = 31; i >= 0; i--) {
+        int bit = (num >> i) & 1; // Extract the ith bit using right shift and bitwise AND
+        printf("%d", bit);
     }
     printf("\n");
 
