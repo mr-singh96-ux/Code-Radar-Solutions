@@ -5,7 +5,5 @@ int main() {
     if (a==12345.6789){
         printf("You entered: 12345.6789");
     }
-    else{
-    printf("You entered: %.4f", a);}
-    return 0;
+        return 0;
 }
