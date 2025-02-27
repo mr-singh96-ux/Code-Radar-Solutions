@@ -8,6 +8,7 @@ int main(){
         }
         for(int k=1; k<=2*a-1; k++){
         printf("*");}
+        printf("\n");
     }
-    printf("\n");
+    
 }
