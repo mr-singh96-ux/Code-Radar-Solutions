@@ -10,5 +10,9 @@ int main(){
         printf("*");
         }
         printf("\n");
+        for(int l=2*i-1; l>=1; l++){
+        printf("*");
+        }
+        printf("\n");
     }
 }
