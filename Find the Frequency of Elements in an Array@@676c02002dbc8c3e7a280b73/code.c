@@ -15,7 +15,7 @@ int main(){
                 arr[j]=-1;
             }
         }
-        printf("%d %d",arr[i],freq);
+        printf("%d %d\n",arr[i],freq);
     } 
     }
     return 0;
