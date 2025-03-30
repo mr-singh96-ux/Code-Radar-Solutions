@@ -19,13 +19,9 @@ int main(){
             }
         }
     }
-    int sorted=0;
+    int sorted=1;
     for(i=n;i<n;i++){
         if(arr1[i]==arr[i]){
-            sorted=1;
-            break;
-        }
-        else{
             sorted=0;
             break;
         }
