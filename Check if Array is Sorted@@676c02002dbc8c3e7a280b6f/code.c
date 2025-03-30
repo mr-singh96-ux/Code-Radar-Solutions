@@ -22,7 +22,7 @@ int main(){
     int sorted=1;
     for(i=n;i<n;i++){
         if(arr1[i]==arr[i]){
-            sorted=0;
+            sorted=1;
             break;
         }
     }
