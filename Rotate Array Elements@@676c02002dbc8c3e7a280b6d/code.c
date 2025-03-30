@@ -13,7 +13,7 @@ int rightRev(int *arr,int n,int k){
     k=k%n;
     if(k==0) return 1;
     rev(arr,0,n-1);
-    reb(arr,0,k-1);
+    rev(arr,0,k-1);
     rev(arr,k,n-1);
 }
 int main(){
