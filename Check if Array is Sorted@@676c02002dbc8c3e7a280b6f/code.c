@@ -25,6 +25,10 @@ int main(){
             sorted=1;
             break;
         }
+        else{
+            sorted=0;
+            break;
+        }
     }
     if(sorted){
         printf("Sorted");
