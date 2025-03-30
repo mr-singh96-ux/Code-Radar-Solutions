@@ -25,6 +25,5 @@ int main(){
     }
     scanf("%d",&k);
     rightRev(arr,n,k);
-    printf("%d",arr[i]);
-    printf("/n");
+    printf("%d\n",arr[i]);
 }
