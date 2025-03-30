@@ -20,11 +20,11 @@ int main(){
         }
     }
     
-    if(arr1[n]==arr[n]){
-        printf("Sorted");
+    if(arr1[n]!=arr[n]){
+        printf("Not Sorted");
     }
     else{
-        printf("Not Sorted");
+        printf("Sorted");
     }
     return 0;
 }
