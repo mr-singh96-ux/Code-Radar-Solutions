@@ -21,7 +21,7 @@ int main(){
     }
     int sorted=1;
     for(i=0;i<n;i++){
-        if(arr1[i]==arr[i]){
+        if(arr1[i]!=arr[i]){
             sorted=0;
             break;
         }
