@@ -19,12 +19,12 @@ int main(){
             }
         }
     }
-    for(i=0;i<n;i++){
-    if(arr1[i]==arr[i]){
+    
+    if(arr1[n]==arr[n]){
         printf("Sorted");
     }
     else{
         printf("Not Sorted");
-    }}
+    }
     return 0;
 }
